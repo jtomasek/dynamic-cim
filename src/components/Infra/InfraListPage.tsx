@@ -11,7 +11,7 @@ import {
   TableData,
   ListPageCreate,
 } from '@openshift-console/dynamic-plugin-sdk/api';
-import { InfraEnv } from 'openshift-assisted-ui-lib/dist/src/cim';
+import { InfraEnv } from 'openshift-assisted-ui-lib/dist/cim';
 
 import { InfraEnvKind } from '../../kind';
 

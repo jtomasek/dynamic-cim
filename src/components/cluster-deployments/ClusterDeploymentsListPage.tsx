@@ -19,7 +19,7 @@ import {
 import {
   AgentClusterInstallK8sResource,
   ClusterDeploymentK8sResource,
-} from 'openshift-assisted-ui-lib/dist/src/cim';
+} from 'openshift-assisted-ui-lib/dist/cim';
 import { AgentClusterInstallKind, ClusterDeploymentKind } from '../../kind';
 import { canEditCluster } from './utils';
 

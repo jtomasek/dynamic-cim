@@ -31,7 +31,7 @@ import {
   getAICluster,
   getClusterValidatedCondition,
   ValidatedConditionAlert,
-} from 'openshift-assisted-ui-lib/dist/src/cim';
+} from 'openshift-assisted-ui-lib/dist/cim';
 import { AgentClusterInstallKind, AgentKind, ClusterDeploymentKind } from '../../kind';
 import { canEditCluster } from './utils';
 

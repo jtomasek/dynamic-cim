@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { K8sPatch } from 'openshift-assisted-ui-lib/dist/src/cim';
+import { K8sPatch } from 'openshift-assisted-ui-lib/dist/cim';
 
 // strValues: array of 'key=value' items
 export const parseStringLabels = (strValues) => {
