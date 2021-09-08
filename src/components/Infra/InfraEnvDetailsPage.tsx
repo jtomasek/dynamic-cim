@@ -8,7 +8,7 @@ import {
   useModalDialogsContext,
   ModalDialogsContextType,
   DownloadIsoModal,
-  AddBmcModal,
+  // AddBmcModal,
 } from '../modals';
 import InfraDetailsTab from './InfraDetailsTab';
 import { InfraEnvKind } from '../../kind';
@@ -74,7 +74,7 @@ const InfraEnvDetails: React.FC<InfraEnvDetailsProps> = ({ name, namespace, ...r
         ]}
       />
       <DownloadIsoModal />
-      <AddBmcModal namespace={namespace} />
+      {/* <AddBmcModal namespace={namespace} /> */}
     </>
   );
 };
